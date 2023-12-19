@@ -16,6 +16,7 @@ body {
     padding-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .nav-item {
@@ -25,6 +26,12 @@ body {
     font-size: 14px;
 
     margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #FF7400;
 }
 
 .cart {
@@ -38,7 +45,7 @@ body {
 .cart-img {
     position: absolute;
     top: 18px;
-    right: 7px;
+    right: 20px;
 }
 
 .num {
@@ -50,6 +57,12 @@ font-weight: 700;
 line-height: 25px;
 letter-spacing: 0em;
 text-align: left;
+
+transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #FF7400;
 }
 
 .phone-text {
@@ -73,4 +86,206 @@ text-align: left;
     text-decoration: none;
     padding: 14px 18px;
     font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #c8420e;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    font-family: Tinos;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #D67E35;
+
+    position: absolute;
+    left: 0;
+
+    margin-top: 250px;
+    margin-bottom: 12px;
+
+}
+
+.header-subtitle {
+    font-family: Tinos;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 92px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.header-suptitle {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header-suptitle::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 176px;
+    left: 76px;
+}
+
+.header-suptitle::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 176px;
+    left: 340px;
+}
+
+.header-button {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    padding: 14px 28px;
+    transition: background-color 0.2s linear;
+
+
+}
+
+.header-button:hover {
+    background-color:#c8420e;
+
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 349px;
+    height: 328px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -50px;
+
+    padding: 10 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card-title span {
+    color: #BC9060;
+}
+
+.card-desc {
+    text-align: center; 
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+
+.history {
+    margin-top: 166px;
+}
+
+.history-title {
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-title span {
+    color: #BC9060;
+}
+
+.history-desc {
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number-item span {
+    display: block;
+    size: 20px;
+    color: black;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-images {
+    position: relative;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    top: 215px;
+    left: -369px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 888;
+    top: -67px;
+    left: -378px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 999;
+    top: -25px;
+    left: -624px;
 }
