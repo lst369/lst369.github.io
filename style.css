@@ -330,3 +330,38 @@ transition: color 0.3s linear;
     justify-content: space-between;
     align-items: center;
 }
+
+.dishes-title {
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.dishes-title span {
+    color: #D67E34;
+}
+
+.burgers {
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;    
+}
+
+.burgers-image {
+    margin-right: 20px;
+}
+
+.burger-text {
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
+}
