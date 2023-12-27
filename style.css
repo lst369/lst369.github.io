@@ -367,7 +367,7 @@ transition: color 0.3s linear;
 }
 
 .menu {
-    background-image: url(img/menu-bg.jpg);
+    background-image: url(img/bg-menu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
@@ -445,4 +445,57 @@ transition: color 0.3s linear;
 .menu-items {
     display: flex;
     justify-content: center;
+}
+
+.comment {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment-text {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.comment-type {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;    
+}
+
+.comment-name {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;   
+}
+
+.comment-image {
+    text-align: center;
+}
+
+.galery {
+    padding-top: 50px;
+}
+.galery-title {
+    text-align: center;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+
+}
+
+.galery-title span {
+    color: #D67E34;
 }
