@@ -84,7 +84,7 @@ transition: color 0.3s linear;
     align-items: center;
 }
 
-.button {
+.button-table {
     background-color: #FF7400;
     color: #FFFFFF;
     text-decoration: none;
@@ -94,7 +94,7 @@ transition: color 0.3s linear;
     transition: background-color 0.2s linear;
 }
 
-.button:hover {
+.button-table:hover {
     background-color: #c8420e;
 }
 
@@ -548,6 +548,24 @@ transition: color 0.3s linear;
 }
 
 .burger-menu {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.burger-slide {
+    position: absolute;
+}
+
+.burger-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
     display: none;
 }
 
